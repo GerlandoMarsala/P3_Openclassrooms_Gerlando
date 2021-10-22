@@ -1,0 +1,16 @@
+@media screen and (max-width: 770px) {
+    .margeLogo {
+        padding: 10px;
+        margin-left: 70px;
+    }
+
+    .margeIconParisBelleville {
+        margin-left: 120px
+    }
+
+    .iconMap {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px 0 0 10px;
+    }
+}
