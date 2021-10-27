@@ -1,16 +1,68 @@
 @media screen and (max-width: 770px) {
+    /* LES POLICES */
+    .ReserverMenu {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        padding-left: 10px;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .DecouvrezMenu {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+    .DecouvrezMenu2 {
+        font-family: 'Roboto', sans-serif;
+        padding-left: 10px;
+        padding: 8px;
+        text-align: center;
+        position: relative; bottom: 40px;
+    }
+
+
+  
+ 
     .margeLogo {
         padding: 10px;
         margin-left: 70px;
     }
 
     .margeIconParisBelleville {
-        margin-left: 120px
+        margin-left: 100px
     }
 
     .iconMap {
-        height: 50px;
-        width: 50px;
-        border-radius: 10px 0 0 10px;
+        float: left;
+        padding-right: 15px;
+        
+    }
+
+    .alignCenter {
+        margin: 20px;
+        bottom: 20px;
+        position: top;
+    }
+
+    .button {
+        background: linear-gradient(#FF79DA, #9356DC);
+        border: none;
+        display: flex;
+        text-align: center;
+        color: white;
+        padding: 14px;
+        padding-right: 10px;
+        width: 220px;
+        height: 48px;
+        font-size: 17px;
+        margin: 6px 70px;
+        border-radius: 25px;
+        position: relative; bottom: 40px;
+    }
+    
+    
+    .fonctionnement {
+        padding: 10px;
+        padding-top: 50px;
     }
 }
