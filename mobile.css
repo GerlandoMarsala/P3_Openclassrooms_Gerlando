@@ -1,4 +1,5 @@
 @media screen and (max-width: 770px) {
+
     /* LES POLICES */
     .ReserverMenu {
         font-family: 'Roboto', sans-serif;
@@ -8,10 +9,23 @@
         text-align: center;
     }
 
-    .DecouvrezMenu {
+    .ParisBelleville {
         font-family: 'Roboto', sans-serif;
         font-size: 17px;
     }
+    
+    .colorFondBody{
+        background-color: #E5E5E5;
+    }
+
+   
+    .DecouvrezMenu {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        font-size: 17px;
+        background-color: #F2F2F2
+    }
+
     .DecouvrezMenu2 {
         font-family: 'Roboto', sans-serif;
         padding-left: 10px;
@@ -20,9 +34,6 @@
         position: relative; bottom: 40px;
     }
 
-
-  
- 
     .margeLogo {
         padding: 10px;
         margin-left: 70px;
@@ -35,7 +46,7 @@
     .iconMap {
         float: left;
         padding-right: 15px;
-        
+        font-size: 18px;
     }
 
     .alignCenter {
@@ -58,11 +69,72 @@
         margin: 6px 70px;
         border-radius: 25px;
         position: relative; bottom: 40px;
+        box-shadow: 5px 5px 5px 1px; color: #eeeeee;
     }
     
     
     .fonctionnement {
-        padding: 10px;
-        padding-top: 50px;
+        padding: 100px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        padding-left: 10px;
+        padding: 12px;
+    }
+
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Element1 {
+        background-color: #F7F7F7;
+        text-align: center;
+        border: none;
+        padding: 20px;
+        padding-right: 10px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+    .Element2 {
+        background-color: #F7F7F7;
+        text-align: center;
+        border: none;
+        padding: 20px;
+        padding-right: 10px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+    .Element3 {
+        background-color: #F7F7F7;
+        text-align: center;
+        border: none;
+        padding: 20px;
+        padding-right: 10px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+    }
+
+    .iconElement1 {
+        font-size: 18px;
+        float: left;
+        right: 10px;
+    }
+
+    .iconElement2 {
+        font-size: 18px;
+        float: left;
+        right: 10px;
+    }
+
+    .iconElement3 {
+        font-size: 18px;
+        float: left;
+        right: 10px;
     }
 }
