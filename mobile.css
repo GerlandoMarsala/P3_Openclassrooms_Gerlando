@@ -1,31 +1,47 @@
-@media screen and (max-width: 770px) {
+html, body{
+    margin:0;
+}
+#containerInfo{
+    background-color:#ececec;
+    border-top: 2px solid #636363cc;
+}
 
+h3{
+    margin: 0;
+}
+
+@media screen and (max-width: 770px) {
+ 
     /* LES POLICES */
     .ReserverMenu {
         font-family: 'Roboto', sans-serif;
-        font-size: 13px;
-        padding-left: 10px;
+        font-size: 14px;
+        padding-left: 18px;
         padding: 8px;
         text-align: center;
     }
-
+ 
     .ParisBelleville {
         font-family: 'Roboto', sans-serif;
-        font-size: 17px;
+        font-size: 13px;
     }
-    
+   
     .colorFondBody{
-        background-color: #E5E5E5;
+        background-color: lightgrey;
+        padding: 14px;
     }
 
-   
+    .colorFondHeader {
+        padding: 20px;
+    }
+ 
     .DecouvrezMenu {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         font-size: 17px;
-        background-color: #F2F2F2
+        
     }
-
+ 
     .DecouvrezMenu2 {
         font-family: 'Roboto', sans-serif;
         padding-left: 10px;
@@ -33,46 +49,45 @@
         text-align: center;
         position: relative; bottom: 40px;
     }
-
+ 
     .margeLogo {
         padding: 10px;
-        margin-left: 70px;
+        margin-left: 100px;
+        width: 170px;
     }
-
+ 
     .margeIconParisBelleville {
         margin-left: 100px
     }
-
+ 
     .iconMap {
-        float: left;
+        /* float: left; */
         padding-right: 15px;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
-
+ 
     .alignCenter {
         margin: 20px;
         bottom: 20px;
         position: top;
     }
-
+ 
     .button {
         background: linear-gradient(#FF79DA, #9356DC);
         border: none;
         display: flex;
-        text-align: center;
         color: white;
-        padding: 14px;
-        padding-right: 10px;
-        width: 220px;
-        height: 48px;
-        font-size: 17px;
-        margin: 6px 70px;
+        padding: 18px;
+        width: 214px;
+        font-size: 16px;
+        margin: 10px 90px;
         border-radius: 25px;
         position: relative; bottom: 40px;
-        box-shadow: 5px 5px 5px 1px; color: #eeeeee;
+        box-shadow: 0 2px 4px #636363cc;
+        text-align: center;
     }
-    
-    
+   
+   
     .fonctionnement {
         padding: 100px;
         font-family: 'Roboto', sans-serif;
@@ -80,13 +95,13 @@
         padding-left: 10px;
         padding: 12px;
     }
-
+ 
     #conteneur {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
+ 
     .Element1 {
         background-color: #F7F7F7;
         text-align: center;
@@ -97,7 +112,7 @@
         border-radius: 12px;
         margin-bottom: 15px;
     }
-
+ 
     .Element2 {
         background-color: #F7F7F7;
         text-align: center;
@@ -108,7 +123,7 @@
         border-radius: 12px;
         margin-bottom: 15px;
     }
-
+ 
     .Element3 {
         background-color: #F7F7F7;
         text-align: center;
@@ -119,19 +134,19 @@
         border-radius: 12px;
         margin-bottom: 15px;
     }
-
+ 
     .iconElement1 {
         font-size: 18px;
         float: left;
         right: 10px;
     }
-
+ 
     .iconElement2 {
         font-size: 18px;
         float: left;
         right: 10px;
     }
-
+ 
     .iconElement3 {
         font-size: 18px;
         float: left;
