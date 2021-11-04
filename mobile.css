@@ -1,19 +1,32 @@
 html, body{
     margin:0;
 }
-#containerInfo{
-    background-color:#ececec;
-    border-top: 2px solid #636363cc;
-}
 
 h3{
     margin: 0;
 }
 
+section {
+margin: 0;
+display: block;
+}
+
+
 footer {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #fff;
+}
+
+#containerInfo {
+    background-color:#FAFAFA;
+    border-top: 2px solid #a8a6a6cc;
+}
+
+#containerSection {
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
 }
 
 #containerFooter {
@@ -39,7 +52,7 @@ footer {
     }
    
     .colorFondBody{
-        background-color: lightgrey;
+        background-color: #F3F3F3;
         padding: 14px;
     }
 
@@ -115,7 +128,7 @@ footer {
     }
  
     .Element1 {
-        background-color: #F7F7F7;
+        background-color: #FAFAFA;
         text-align: center;
         border: none;
         padding: 20px;
@@ -126,7 +139,7 @@ footer {
     }
  
     .Element2 {
-        background-color: #F7F7F7;
+        background-color: #FAFAFA;
         text-align: center;
         border: none;
         padding: 20px;
@@ -137,7 +150,7 @@ footer {
     }
  
     .Element3 {
-        background-color: #F7F7F7;
+        background-color: #FAFAFA;
         text-align: center;
         border: none;
         padding: 20px;
@@ -164,7 +177,33 @@ footer {
         float: left;
         right: 10px;
     }
+/* FLEX RESTAURANTS
+    .restaurants {
+        padding: 5px;
+    }
 
+    .titleRestaurants{
+        margin-bottom: 10px;
+        margin: 10px;
+    }
+
+    .container {
+            max-width: 1280px;
+            margin: auto;
+            position: relative;
+    }
+
+    .cartes {
+        display: flex;
+    }
+
+    .carte {
+        background-color: white;
+        height: auto;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+    }
+*/
     .footerLogo {
         width: 120px;
         margin-top: 10px;
