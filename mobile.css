@@ -10,15 +10,27 @@ h3{
     margin: 0;
 }
 
+footer {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#containerFooter {
+    background-color: #353535;
+    padding: 22px;
+}
+
 @media screen and (max-width: 770px) {
  
     /* LES POLICES */
     .ReserverMenu {
-        font-family: 'Roboto', sans-serif;
+        
         font-size: 14px;
         padding-left: 18px;
         padding: 8px;
         text-align: center;
+        font-family: 'Roboto', sans-serif;
     }
  
     .ParisBelleville {
@@ -34,12 +46,12 @@ h3{
     .colorFondHeader {
         padding: 20px;
     }
+
  
     .DecouvrezMenu {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         font-size: 17px;
-        
     }
  
     .DecouvrezMenu2 {
@@ -53,7 +65,7 @@ h3{
     .margeLogo {
         padding: 10px;
         margin-left: 100px;
-        width: 170px;
+        width: 180px;
     }
  
     .margeIconParisBelleville {
@@ -152,4 +164,23 @@ h3{
         float: left;
         right: 10px;
     }
+
+    .footerLogo {
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    #policeomf {
+        font-family: 'Shrikhand', cursive;
+        font-size: 20px;
+    }
+
+    .margIconFooter {
+       margin-right: 15px;
+    }
+
+    .margIconFooter2 {
+        margin-right: 8px;
+     }
+
 }
