@@ -177,7 +177,7 @@ footer {
         float: left;
         right: 10px;
     }
-/* FLEX RESTAURANTS
+ FLEX RESTAURANTS
     .restaurants {
         padding: 5px;
     }
@@ -197,13 +197,11 @@ footer {
         display: flex;
     }
 
-    .carte {
-        background-color: white;
-        height: auto;
-        padding: 1% 0 1% 1%;
-        border-radius: 20px;
+    .imageRestaurant {
+        width: 150px
     }
-*/
+
+
     .footerLogo {
         width: 120px;
         margin-top: 10px;
