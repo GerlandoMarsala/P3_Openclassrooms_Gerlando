@@ -24,7 +24,7 @@ footer {
 }
 
 #containerSection {
-    background-color: red;
+    background-color: #F3F3F3;
     font-family: 'Roboto', sans-serif;
     padding: 5px;
 }
@@ -125,6 +125,8 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 20px;
+    
     }
  
     .Element1 {
@@ -132,7 +134,7 @@ footer {
         text-align: center;
         border: none;
         padding: 20px;
-        padding-right: 10px;
+        padding-right: 15px;
         font-size: 16px;
         border-radius: 12px;
         margin-bottom: 15px;
@@ -143,7 +145,7 @@ footer {
         text-align: center;
         border: none;
         padding: 20px;
-        padding-right: 10px;
+        padding-right: 15px;
         font-size: 16px;
         border-radius: 12px;
         margin-bottom: 15px;
@@ -154,7 +156,7 @@ footer {
         text-align: center;
         border: none;
         padding: 20px;
-        padding-right: 10px;
+        padding-right: 15px;
         font-size: 16px;
         border-radius: 12px;
         margin-bottom: 15px;
@@ -164,20 +166,24 @@ footer {
         font-size: 18px;
         float: left;
         right: 10px;
+        padding-left: 30px;
     }
  
     .iconElement2 {
         font-size: 18px;
         float: left;
         right: 10px;
+        padding-left: 30px;
     }
  
     .iconElement3 {
         font-size: 18px;
         float: left;
         right: 10px;
+        padding-left: 30px;
     }
- FLEX RESTAURANTS
+
+ /* FLEX RESTAURANTS */
     .restaurants {
         padding: 5px;
     }
