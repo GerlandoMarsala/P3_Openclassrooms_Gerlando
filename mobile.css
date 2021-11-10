@@ -126,62 +126,52 @@ footer {
         flex-direction: column;
         justify-content: center;
         margin-bottom: 20px;
+        position: relative;
+    }
     
+    .colorNumber {
+        background: #9356dc;
+        height: 22px;
+        width: 22px;
+        border-radius: 20px;
+        font-size: 15px;
+        position: absolute;
+        color: white;
+        justify-content: center;
+        align-items: center;
     }
- 
-    .Element1 {
+
+    .listNumber {
+        font-size: 17px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        padding: 2px;
+    }
+
+    .Element {
         background-color: #FAFAFA;
         text-align: center;
         border: none;
-        padding: 20px;
+        padding: 22px;
         padding-right: 15px;
         font-size: 16px;
         border-radius: 12px;
         margin-bottom: 15px;
     }
+
+
  
-    .Element2 {
-        background-color: #FAFAFA;
-        text-align: center;
-        border: none;
-        padding: 20px;
-        padding-right: 15px;
-        font-size: 16px;
-        border-radius: 12px;
-        margin-bottom: 15px;
-    }
  
-    .Element3 {
-        background-color: #FAFAFA;
-        text-align: center;
-        border: none;
-        padding: 20px;
-        padding-right: 15px;
-        font-size: 16px;
-        border-radius: 12px;
-        margin-bottom: 15px;
-    }
- 
-    .iconElement1 {
+    .iconElement {
         font-size: 18px;
         float: left;
         right: 10px;
         padding-left: 30px;
     }
  
-    .iconElement2 {
-        font-size: 18px;
-        float: left;
-        right: 10px;
-        padding-left: 30px;
-    }
- 
-    .iconElement3 {
-        font-size: 18px;
-        float: left;
-        right: 10px;
-        padding-left: 30px;
-    }
 
  /* FLEX RESTAURANTS */
     .restaurants {
