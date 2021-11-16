@@ -255,35 +255,42 @@ footer {
         margin-top: 5%;
     }
 
-    .fa-heart:hover {
-        color:#b192d6;
-        font-size: 20px;
-    }
+
 
     .parent {
         position: relative;
-        margin: 10px;
-
+        margin-right: 20px;
      }
-     .child1 {
+
+     .menunoir{
         position:absolute;
         top: 0;
         left: 0;
-        opacity: 10;
+        z-index: 2;
      }
 
-     .child2 {
+     .menublanc{
+        position:absolute;
+        top: 0;
+        left: 0;
         z-index: 1;
-     }
-     
-     .fas{
-        color: white;
-        font-size: 20px;
+        color:white;
      }
 
-     .far {
-         font-size: 20px;
+     .menunoir:hover{
+        color:#4d4c4c;
      }
+
+     .menunoir:hover ~ .menublanc{
+        color:#b192d6;
+    }
+
+ 
+
+
+
+
+
 
 
 
