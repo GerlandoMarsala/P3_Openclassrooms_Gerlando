@@ -118,6 +118,13 @@ footer {
         box-shadow: 0 2px 4px #636363cc;
         text-align: center;
     }
+
+    .button:hover {
+        background: linear-gradient(#eeabdb, #b192d6);
+        box-shadow: 0 2px 4px #2c2c2ccc
+    }
+
+
    
    
     .fonctionnement {
@@ -247,6 +254,38 @@ footer {
     .iconeCoeur {
         margin-top: 5%;
     }
+
+    .fa-heart:hover {
+        color:#b192d6;
+        font-size: 20px;
+    }
+
+    .parent {
+        position: relative;
+        margin: 10px;
+
+     }
+     .child1 {
+        position:absolute;
+        top: 0;
+        left: 0;
+        opacity: 10;
+     }
+
+     .child2 {
+        z-index: 1;
+     }
+     
+     .fas{
+        color: white;
+        font-size: 20px;
+     }
+
+     .far {
+         font-size: 20px;
+     }
+
+
 
     .footerLogo {
         width: 120px;
@@ -390,5 +429,10 @@ footer {
             margin-top:10%;
             box-shadow: 0 2px 4px #636363cc;
             text-align: center;
+        }
+
+        .buttonCommander:hover {
+        background: linear-gradient(#eeabdb, #b192d6);
+        box-shadow: 0 2px 4px #2c2c2ccc
         }
     }
