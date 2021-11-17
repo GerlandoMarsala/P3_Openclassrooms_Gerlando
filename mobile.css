@@ -34,8 +34,7 @@ footer {
 #containerSection {
     font-family: 'Roboto', sans-serif;
     padding: 25px; 
-    background-color: #F3F3F3;
-    
+    background-color: #F3F3F3;  
 }
 
 #containerFooter {
@@ -230,7 +229,6 @@ footer {
 
     .card-header{
         position: relative;
-
     }
 
     .card-header p {
@@ -285,15 +283,6 @@ footer {
         color:#b192d6;
     }
 
- 
-
-
-
-
-
-
-
-
     .footerLogo {
         width: 120px;
         margin-top: 10px;
@@ -312,10 +301,6 @@ footer {
         margin-right: 8px;
      }
 
-
-
-
-     
      /* CSS Page A la Française */
 
      .ElementMenu {
