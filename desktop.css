@@ -100,7 +100,7 @@ header{
 .ElementDesktop {
     background-color: #FAFAFA;
     border: none;
-    padding: 18px;
+    padding: 10px;
     padding-right: 15px;
     font-size: 16px;
     border-radius: 12px;
@@ -194,9 +194,18 @@ header{
     font-weight: 100;
 }
 
+.iconeCoeur2 {
+    position: absolute;
+    margin-top: 45%;
+    top: 0%;
+    right: 5%;
+    padding: 2%;
+    font-size: 150%;
+}
+
 .iconeCoeurDesktop {
-    margin-top: 0%;
-    font-size: 120%;
+    margin-bottom: 0%;
+    font-size: 150%;
 }
 
 .parentDesktop {
@@ -241,7 +250,7 @@ header{
   }
 
   /* Desktop a la francaise */
-
+  
   .imageAlaFrancaise{
     height: 600px;
     object-fit: cover;
@@ -278,25 +287,15 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom:5%;
+    margin-bottom:3%;
     border-bottom: 3px solid #99E2D0;
     width: 5%;
     padding-bottom:5px;
     text-transform: uppercase;
     font-weight: 350;
+    margin-top: 4%;
     }
 
-    .ElementMenuDesktop {
-        background-color: #FAFAFA;
-        border: none;
-        padding: 10px;
-        padding-right: 15px;
-        font-size: 16px;
-        border-radius: 12px;
-        margin-bottom: 15px;
-        position: relative;
-        box-shadow: 0 1px 1px #636363cc;
-    }
 
     .buttonCommander {
         background: linear-gradient(#FF79DA, #9356DC);
@@ -306,11 +305,39 @@ header{
         width: 214px;
         font-size: 16px;
         border-radius: 25px;
-        margin-top:10%;
+        margin-bottom:5%;
         box-shadow: 0 2px 4px #636363cc;
         text-align: center;
     }
+    .ElementMenuDesktop {
+        background-color: #FAFAFA;
+        border: none;
+        padding: 5px;
+        padding-right: 15px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        position: relative;
+        box-shadow: 0 3px 3px #636363cc;
+    }
+
+    .prix {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        padding: 2%;
+        } 
 
     .containerBtn{
         text-align: center;
+        padding-top: 7%;
     }
+
+    
+    .margIconFooterDesktop {
+        margin-right: 15px;
+     }
+    
+     .margIconFooter2Desktop {
+         margin-right: 8px;
+      }

@@ -16,6 +16,19 @@
         width: 18px; */
     }
     
+    .h3policeDesktop {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 1%;
+        border-bottom: 3px solid #99E2D0;
+        width: 5%;
+        padding-top:1%;
+        text-transform: uppercase;
+        font-weight: 350;
+        margin-top: 5%;
+        }
+        
     .ReserverMenuTablette { 
         font-size: 14px;
         padding-left: 18px;
@@ -56,19 +69,22 @@
         text-align: center;
         /* margin-left: 420px; */
     }
-/*
-    .iconeCoeur2Desktop {
+
+    .coeur {
+        position: relative;
+    }
+
+    .iconeCoeur2 {
         position: absolute;
-        margin-top: 6%;
-        top: 1%;
+        margin-top: 0%;
+        top: 0%;
         right: 5%;
         padding: 2%;
         font-size: 150%;
-        }
-        */
+    }
 
     .margeEntreePlatsDesserts {
-        margin-bottom: 10%;
+        margin-bottom: 0%;
         }
 
     .prix {
@@ -77,5 +93,19 @@
         right: 5%;
         padding: 2%;
         }
+
+    .ElementMenuDesktop {
+        background-color: #FAFAFA;
+        border: none;
+        padding: 5px;
+        padding-right: 15px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        position: relative;
+        box-shadow: 0 3px 3px #636363cc;
+    }
+
+    
     }
     
