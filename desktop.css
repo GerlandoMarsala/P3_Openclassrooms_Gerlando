@@ -1,15 +1,20 @@
 /* HEADER DESKTOP */
 
+header{
+    text-align: center;
+}
+
+
 .margeDesktopOMF {
-    padding: 10px;
+    /* padding: 10px;
     margin-left: 600px;
-    width: 180px;
+    width: 180px; */
 }
 
 .margeDesktopParis {
-    padding: 10px;
+    /* padding: 10px;
     margin-left: 580px;
-    width: 18px;
+    width: 18px; */
 }
 
 .ReserverMenuDesktop { 
@@ -40,22 +45,23 @@
 .buttonDesktop {
     background: linear-gradient(#FF79DA, #9356DC);
     border: none;
-    display: flex;
+    /* display: flex; */
     color: white;
     padding: 18px;
     width: 214px;
     font-size: 16px;
-    margin: 30px 90px;
+    /* margin: 30px 90px; */
     border-radius: 25px;
-    position: relative; bottom: 40px;
+    position: relative; 
+    /* bottom: 40px; */
     box-shadow: 0 2px 4px #636363cc;
     text-align: center;
-    margin-left: 590px;
+    /* margin-left: 590px; */
 }
 
 .buttonDesktop:hover {
     background: linear-gradient(#eeabdb, #b192d6);
-    box-shadow: 0 2px 4px #2c2c2ccc
+    box-shadow: 0 2px 4px #2c2c2ccc;
 }
 
 .colorFondBodyDesktop {
@@ -233,3 +239,13 @@
  .margIconFooter2Desktop {
      margin-right: 8px;
   }
+
+  /* Desktop a la francaise */
+
+  .imageAlaFrancaise{
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}

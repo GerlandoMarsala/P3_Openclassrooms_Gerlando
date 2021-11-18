@@ -85,12 +85,11 @@ footer {
  
     .margeLogo {
         padding: 10px;
-        margin-left: 100px;
-        width: 180px;
+        width: 180px; 
     }
  
     .margeIconParisBelleville {
-        margin-left: 100px
+        /* margin-left: 100px */
     }
  
     .iconMap {
@@ -106,12 +105,12 @@ footer {
     .button {
         background: linear-gradient(#FF79DA, #9356DC);
         border: none;
-        display: flex;
+        /* display: flex; */
         color: white;
         padding: 18px;
         width: 214px;
         font-size: 16px;
-        margin: 10px 90px;
+        /* margin: 10px 90px; */
         border-radius: 25px;
         position: relative; bottom: 40px;
         box-shadow: 0 2px 4px #636363cc;
@@ -355,6 +354,7 @@ footer {
 
     .imageAlaFrancaise {
         width: 100%;
+        height: auto;
         }
     
     .titreAlafrancaise {

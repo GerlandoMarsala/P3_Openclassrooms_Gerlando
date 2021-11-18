@@ -1,14 +1,19 @@
 @media screen and (max-width:1295px) {
+    
+    header{
+        text-align: center;
+    }
+    
     .margeTabletteOMF {
-        padding: 10px;
+        /* padding: 10px;
         margin-left: 430px;
-        width: 180px;
+        width: 180px; */
     }
     
     .margeDesktopParis {
-        padding: 10px;
+        /* padding: 10px;
         margin-left: 420px;
-        width: 18px;
+        width: 18px; */
     }
     
     .ReserverMenuTablette { 
@@ -39,76 +44,18 @@
     .buttonTablette {
         background: linear-gradient(#FF79DA, #9356DC);
         border: none;
-        display: flex;
+        /* display: flex; */
         color: white;
         padding: 18px;
         width: 214px;
         font-size: 16px;
-        margin: 30px 90px;
+        /* margin: 30px 90px; */
         border-radius: 25px;
         position: relative; bottom: 40px;
         box-shadow: 0 2px 4px #636363cc;
         text-align: center;
-        margin-left: 420px;
+        /* margin-left: 420px; */
     }
 
-/*
-    @media screen and (max-width:990px) {
-
-        .margeTablette2-OMF {
-            padding: 10px;
-            margin-left: 50px;
-            width: 180px;
-        }
-        
-        .margeDesktopParis {
-            padding: 10px;
-            margin-left: 420px;
-            width: 18px;
-        }
-        
-        .ReserverMenuTablette { 
-            font-size: 14px;
-            padding-left: 18px;
-            margin-right: 0px;
-            padding: 20px;
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        .DecouvrezMenuDesktop {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 100;
-            font-size: 20px;
-            margin-left: 4px;
-            margin-bottom: 20px;
-        }
-        
-        .DecouvrezMenu2Desktop {
-            font-family: 'Roboto', sans-serif;
-            padding-left: 10px;
-            padding: 8px;
-            text-align: center;
-            position: relative; bottom: 40px;
-        }
-        
-        .buttonTablette-2 {
-            background: linear-gradient(#FF79DA, #9356DC);
-            border: none;
-            display: flex;
-            color: white;
-            padding: 18px;
-            width: 214px;
-            font-size: 16px;
-            margin: 30px 90px;
-            border-radius: 25px;
-            position: relative; bottom: 40px;
-            box-shadow: 0 2px 4px #636363cc;
-            text-align: center;
-            margin-left: 500px;
-        }
-    
-        }
-        */
     }
     
