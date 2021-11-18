@@ -249,3 +249,68 @@ header{
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
+
+.iconeHeader {
+    font-size: 20px;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    color: black;
+}
+
+.titreAlafrancaiseDesktop {
+    font-family: 'Shrikhand', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    }
+/*
+.iconeCoeur2Desktop {
+    position: absolute;
+    margin-top: 45%;
+    top: 1%;
+    right: 5%;
+    padding: 2%;
+    font-size: 150%;
+    }
+*/
+
+.h3policeDesktop {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom:5%;
+    border-bottom: 3px solid #99E2D0;
+    width: 5%;
+    padding-bottom:5px;
+    text-transform: uppercase;
+    font-weight: 350;
+    }
+
+    .ElementMenuDesktop {
+        background-color: #FAFAFA;
+        border: none;
+        padding: 10px;
+        padding-right: 15px;
+        font-size: 16px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        position: relative;
+        box-shadow: 0 1px 1px #636363cc;
+    }
+
+    .buttonCommander {
+        background: linear-gradient(#FF79DA, #9356DC);
+        border: none;
+        color: white;
+        padding: 18px;
+        width: 214px;
+        font-size: 16px;
+        border-radius: 25px;
+        margin-top:10%;
+        box-shadow: 0 2px 4px #636363cc;
+        text-align: center;
+    }
+
+    .containerBtn{
+        text-align: center;
+    }

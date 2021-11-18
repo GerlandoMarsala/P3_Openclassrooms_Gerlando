@@ -56,6 +56,26 @@
         text-align: center;
         /* margin-left: 420px; */
     }
+/*
+    .iconeCoeur2Desktop {
+        position: absolute;
+        margin-top: 6%;
+        top: 1%;
+        right: 5%;
+        padding: 2%;
+        font-size: 150%;
+        }
+        */
 
+    .margeEntreePlatsDesserts {
+        margin-bottom: 10%;
+        }
+
+    .prix {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        padding: 2%;
+        }
     }
     
