@@ -42,6 +42,126 @@ footer {
     padding: 22px;
 }
 
+
+.backSpin{
+        height: 100%;
+    background: white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    -webkit-animation: spinner 2s linear;
+            animation: spinner 2s linear;
+    visibility: hidden;
+}
+
+.chargement {
+    /* Création du Loader */
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  
+    border-top: 10px solid #9356DC;
+    border-bottom: 10px solid #FF79DA;
+    border-left: 10px solid #99E2D0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear;
+    -o-animation: spin 2s linear;
+    animation: spin 2s linear infinite;
+    
+    
+    /* Placement du Loader au centre de la page d'accueil */
+  
+      margin: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      -webkit-animation: spinner-border 2s linear;
+              animation: spinner-border 2s linear;
+      z-index: 10;
+      visibility: hidden;
+  }
+  
+  
+  /* Animation du Loader */
+  @-webkit-keyframes spinner {
+    0% {
+      visibility: visible;
+      opacity: 0.9;
+    }
+    70% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  @keyframes spinner {
+    0% {
+      visibility: visible;
+      opacity: 0.9;
+    }
+    70% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  
+  @-webkit-keyframes spinner-border {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+  
+  @keyframes spinner-border {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
+
+
+
+
+
 @media screen and (max-width: 770px) {
  
     /* LES POLICES */
@@ -122,6 +242,9 @@ footer {
         box-shadow: 0 2px 4px #2c2c2ccc
     }
 
+
+   
+   
     .fonctionnement {
         padding: 100px;
         font-family: 'Roboto', sans-serif;
@@ -249,6 +372,8 @@ footer {
         margin-top: 5%;
     }
 
+
+
     .parent {
         position: relative;
         margin-right: 20px;
@@ -308,6 +433,19 @@ footer {
         position: relative;
         box-shadow: 0 1px 1px #636363cc;
     }
+
+    /* test animation pastille verte */
+/*
+    .iconeVert {
+        position: relative;
+        background: #99E2D0;
+        border-radius: 0 15px 15px 0;
+        right: 0px;
+        padding: 0 13px;
+        height: 100%;
+    }
+*/
+
 
     .TitreMenu2 {
         font-size: 18px;
@@ -381,9 +519,6 @@ footer {
         font-weight: 350;
         }
 
-    .margeEntreePlatsDesserts {
-        margin-bottom: 10%;
-        }
         
     .prix {
         position: absolute;

@@ -208,6 +208,7 @@ header{
     font-size: 150%;
 }
 
+
 .parentDesktop {
     position: relative;
     margin-right: 20px;
@@ -309,6 +310,12 @@ header{
         box-shadow: 0 2px 4px #636363cc;
         text-align: center;
     }
+
+    .buttonCommander:hover {
+        background: linear-gradient(#eeabdb, #b192d6);
+        box-shadow: 0 2px 4px #2c2c2ccc
+        }
+        
     .ElementMenuDesktop {
         background-color: #FAFAFA;
         border: none;

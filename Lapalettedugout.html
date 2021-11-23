@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="desktop.css">
     <link rel="stylesheet" href="tablette.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="menuAnimation.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -41,52 +42,68 @@
             <div>
                 <i class="iconeCoeur2 iconeCoeurDesktop far fa-heart"></i>
             </div>
+            
 
             <h3 class="h3police h3policeDesktop">entrées</h3>
 
             <div class="margeEntreePlatsDesserts">
 
-                <div class="ElementMenu ElementMenuDesktop">
+                <div class="menu__grid__case appears-with-opacity" id="case1">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Fricassée d'escargot</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Au piment d'Espelette</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">25€</div>
+                    </div>
 
-                    <div>
-                        <h3 class="TitreMenu2">Fricassée d'escargot</h3>
-                        <p class="tailleParagraphes">Au piment d'Espelette</p>
-                        <p class="prix">25€</p>
-
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
                     </div>
 
 
                 </div>
 
-
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Foie gras de canard mi-cuit</h3>
-                        <p class="tailleParagraphes">Et ses copeaux de truffe noire</p>
-                        <p class="prix">35€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case2">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Foie gras de canard mi-cuit</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Et ses copeaux de truffe noire</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">35€</div>
+                    </div>
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
                     </div>
 
-
                 </div>
+                
 
-
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Oeuf au plat</h3>
-                        <p class="tailleParagraphes">Assaisonné à la truffe sur lit de caviar</p>
-                        <p class="prix">20€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case3">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Oeuf au plat</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Assaisonné à la truffe sur lit de caviar</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">20€</div>
+                    </div>
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
                     </div>
 
-
                 </div>
-
-
-
-
 
 
             </div>
@@ -96,48 +113,58 @@
 
             <div class="margeEntreePlatsDesserts">
 
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Filet de boeuf aux herbes</h3>
-                        <p class="tailleParagraphes">Accompagné de sa ribambelle de légumes</p>
-                        <p class="prix">40€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case4">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Filet de boeuf aux herbes</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Accompagné de sa ribambelle de légumes</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">40€</div>
                     </div>
-
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
 
                 </div>
 
-
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Parmentier de queue de boeuf</h3>
-                        <p class="tailleParagraphes">À la truffe noire sur sa purée de panais</p>
-                        <p class="prix">35€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case5">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Parmentier de queue de boeuf</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>À la truffe noire sur sa purée de panais</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">35€</div>
                     </div>
-
-
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
                 </div>
 
-
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Filet de turbot</h3>
-                        <p class="tailleParagraphes">Aux agrumes</p>
-                        <p class="prix">44€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case6">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Filet de turbot</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Aux agrumes</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">44€</div>
+                    </div>
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
                     </div>
 
-
                 </div>
-
-
-
-
-
 
             </div>
 
@@ -146,47 +173,67 @@
 
             <div class="margeEntreePlatsDesserts">
 
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Paris-Brest</h3>
-                        <p class="tailleParagraphes">Revisité</p>
-                        <p class="prix">18€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case7">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Paris-Brest</p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Revisité</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">18€</div>
                     </div>
-
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
 
                 </div>
 
 
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Macaron au chocolat d'exception </h3>
-                        <p class="tailleParagraphes">Et glace à la vanille de Madagascar</p>
-                        <p class="prix">22€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case8">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Macaron au chocolat d'exception </p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>Et glace à la vanille de Madagascar</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">22€</div>
                     </div>
-
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
+                    </div>
 
                 </div>
 
 
-                <div class="ElementMenu ElementMenuDesktop">
-
-                    <div>
-                        <h3 class="TitreMenu2">Mousse au chocolat </h3>
-                        <p class="tailleParagraphes">Au piment d'Espelette et à la truffe noire</p>
-                        <p class="prix">23€</p>
-
+                <div class="menu__grid__case appears-with-opacity" id="case8">
+                    <div class="dish-and-price">
+                      <div class="menu__case__dish">
+                        <div class="menu__case__dish-title">
+                          <p>Mousse au chocolat </p>
+                        </div>
+                        <div class="menu__case__dish-subtitle">
+                          <p>u piment d'Espelette et à la truffe noire</p>
+                        </div>
+                      </div>
+                      <div class="menu__case__price">23€</div>
+                    </div>
+                    <div class="validation__box">
+                      <i class="fas fa-check-circle"></i>
                     </div>
 
-
                 </div>
+
 
                 <div class="containerBtn">
                     <button class="buttonCommander">Commander</button>
                 </div>
+ 
 
             </div>
 
