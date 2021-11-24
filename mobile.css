@@ -42,6 +42,9 @@ footer {
     padding: 22px;
 }
 
+.policeSmall {
+    font-weight: 100;
+}
 
 .backSpin{
         height: 100%;
