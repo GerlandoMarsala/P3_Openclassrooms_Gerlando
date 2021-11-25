@@ -225,6 +225,11 @@
     animation-delay:0.9s
 }
 
+#case10{
+  -webkit-animation-delay: 0.10s;
+  animation-delay: 1s
+}
+
 
 @-webkit-keyframes opacity {
     0% {
