@@ -92,7 +92,32 @@
         position: relative;
         box-shadow: 0 3px 3px #636363cc;
         display: flex;
+ 
 
+    }
+
+    .fonctionnementDesktop{
+        padding:0;
+    }
+
+
+    .conteneurDesktop {
+        width: 80%;
+        /* margin: auto; */
+        margin-bottom: 5%;
+    }
+
+
+    .iconElementDesktop {
+        left: 25px;
+    }   
+
+    .Element{
+        width:33%;
+        margin-right:2%;
+    }
+    .textIconDesktop {
+        margin-left: 20%;
     }
     }
     
