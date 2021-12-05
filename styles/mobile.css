@@ -126,9 +126,13 @@ a {
 } 
 
 .Element:hover{
-    background-color: rgba(147, 86, 220, 0.2);
+    background-color: rgba(174, 110, 252, 0.1);
 }
   
+.Element:hover > div i {
+    color: #9356DC;
+}
+
   /* Animation du Loader */
   @-webkit-keyframes spinner {
     0% {
